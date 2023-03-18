@@ -1,0 +1,17 @@
+package ar.edu.argentinaprograma.calculadora;
+
+public class Calculadora {
+	
+	public static integer sumar(Integer num1, Integer num2) {
+		return num1 + num2;
+	}
+	
+	public static integer multiplicar(Integer num1, Integer num2) {
+		return num1 * num2;
+	}
+	
+	public static integer sumar(Integer num1, Integer num2) {
+		return num1 + num2;
+	}
+
+}

@@ -1,0 +1,59 @@
+package Clase4;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+public class Cuestionario04 {
+
+	public static void main(String[] args) {
+		
+		//Dado el siguiente código, indique la opción correcta:
+		
+		String archivo = "recursos/archivoDeTexto.txt";
+		
+		try {
+		
+		for (String linea : Files.readAllLines(Paths.get(archivo))){
+
+			if(linea.startsWith("*")){
+
+			System.out.println(linea);
+
+			}
+		}
+
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	
+	
+		//a y d son correctas
+	
+		
+		private String unaPalabra = "una palabra";
+		private char a;
+		
+		
+		public static int contarLetra(String unaPalabra, char letra){
+			
+			int cuenta = 0;
+
+			for (int i = 0; i<unaPalabra.length(); i++){
+
+				if( unaPalabra.charAt(i)  == letra){
+
+					cuenta = cuenta + 1;
+
+				}
+
+			}
+
+			return cuenta;
+
+		
+	}
+	}
+	
+
+}

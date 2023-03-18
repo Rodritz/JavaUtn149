@@ -1,0 +1,20 @@
+package Clase5;
+
+public class IntroduccionAObjetos {
+
+	public static void main(String[] args) {
+		
+		Persona nahuel = new Persona();
+		
+		nahuel.setNombre("Nahuel");//le asigno el nombre al objeto mediante el setter
+		nahuel.setApellido("Ramirez");
+		
+		System.out.println("creamos el objeto Persona" + nahuel.getNombre()+ ", " + nahuel.getApellido());
+		
+		Persona benjamin = new Persona("Benjamin", "Torres");
+		
+		System.out.println("creamos el objeto Persona" + benjamin.getNombre()+ ", " + benjamin.getApellido());
+		
+	}
+
+}

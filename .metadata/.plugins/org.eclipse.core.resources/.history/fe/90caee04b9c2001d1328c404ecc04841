@@ -1,0 +1,25 @@
+package Clase4;
+
+import java.nio.file.Files;
+
+public class Cuestionario04 {
+
+	public static void main(String[] args) {
+		
+		String archivo = "recursos/archivoDeTexto.txt";
+		
+		for (String linea : Files.readAllLines(Paths.get(archivo))){
+
+			if(linea.startsWith(linea“*”)){
+
+			System.out.println(linea);
+
+			}
+
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

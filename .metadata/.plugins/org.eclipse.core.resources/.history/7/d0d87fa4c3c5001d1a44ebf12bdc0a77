@@ -1,0 +1,6 @@
+package ar.edu.argentinaprograma.compras.models;
+
+public class DescuentoPorcentaje extends Descuento{
+	
+
+}

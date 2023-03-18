@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Calculadora.java&apos; to &apos;Clases-y-Ejercicios-Java-149/src/main/java/Clase6&apos;&#x0D;&#x0A;- Original project: &apos;calculadora&apos;&#x0D;&#x0A;- Destination element: &apos;Clases-y-Ejercicios-Java-149/src/main/java/Clase6&apos;&#x0D;&#x0A;- Original element: &apos;ar.edu.argentinaprograma.calculadora.Calculadora.java&apos;" description="Copy compilation unit" destination="=Clases-y-Ejercicios-Java-149/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Clase6" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;ar.edu.argentinaprograma.calculadora{Calculadora.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1679171330219" units="1" version="1.0"/>
+</session>

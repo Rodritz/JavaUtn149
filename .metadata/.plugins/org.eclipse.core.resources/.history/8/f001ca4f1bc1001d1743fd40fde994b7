@@ -1,0 +1,13 @@
+package TPIntegrador;
+
+public class Jugador {
+
+	public static void main(String[] args) {
+		
+		Persona jugador1 = new Persona("Mariana", 0, 0);
+		Persona jugador2 = new Persona("Pedro", 0, 0);
+				
+
+	}
+
+}

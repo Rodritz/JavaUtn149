@@ -1,0 +1,9 @@
+package Clase5;
+
+public class Persona {
+	
+	publico String nombre;
+	private String apellido;
+	
+
+}

@@ -1,0 +1,92 @@
+package TPIntegrador;
+
+import java.util.Scanner;
+
+public class Jugador {
+
+	public static void main(String[] args) {
+		
+		Persona jugador1 = new Persona(1, "Mariana", 0, 0);
+		Persona jugador2 = new Persona(2, "Pedro", 0, 0);
+		
+		
+		
+		/*public int resultado() {
+			return puntajeJugador1;
+			
+			
+			
+			int goles1=(int)(Math.random()*6);
+			int goles2=(int)(Math.random()*6);
+			if(goles1>goles2) {
+				puntajeJugador1+=3;
+			}else if(goles1<goles2) {
+				puntajeJugador2+= 3;
+			}else if(goles1==goles2) {
+				puntajeJugador1++;
+				puntajeJugador2++;
+			}*/
+		
+		
+		
+		
+		Scanner teclado = new  Scanner(System.in);
+		
+		System.out.println("que jugador hara su apuesta?");		
+		System.out.println("1-Mariana");
+		System.out.println("2-Pedro");
+		
+		int opcion = teclado.nextInt();
+		switch(opcion) {
+		case 1:			
+			System.out.println("Mariana, que equipo crees que ganará?");
+			System.out.println("1-Argentina");		
+			System.out.println("2-Arabia Saudita");
+			int opcion2 = teclado.nextInt();
+			int puntajeTotal1=0;
+			int pronosticosAcertados1=0;
+			while(opcion2<=2) {
+				
+				int goles1=(int)(Math.random()*6);
+				int goles2=(int)(Math.random()*6);
+				if(goles1>goles2) {					
+					puntajeTotal1+=3;
+					System.out.println("el puntaje total de Mariana por acertar el equipo ganador es " + puntajeTotal1);
+				}else if(goles1<goles2) {
+					puntajeTotal1=puntajeTotal1;
+					System.out.println("Mariana no ha sumado puntos por no acertar el quipo ganador. Actualmente tiene: "+ puntajeTotal1 +" puntos");
+				}else if(goles1==goles2) {
+					puntajeTotal1++;
+					System.out.println("el puntaje total de Mariana porque el partido salio empatado es " + puntajeTotal1);
+				}break;
+			}
+			
+		case 2:
+			System.out.println("Pedro, que equipo crees que ganará?");
+			System.out.println("1-Argentina");		
+			System.out.println("2-Arabia Saudita");
+			int opcion3 = teclado.nextInt();
+			int puntajeTotal2=0;
+			int pronosticosAcertados2=0;
+			while(opcion3<=2) {
+				
+				int goles1=(int)(Math.random()*6);
+				int goles2=(int)(Math.random()*6);
+				if(goles1>goles2) {					
+					puntajeTotal2+=3;
+					System.out.println("el puntaje total de Mariana por acertar el equipo ganador es " + puntajeTotal2);
+				}else if(goles1<goles2) {
+					puntajeTotal2=puntajeTotal2;
+					System.out.println("Mariana no ha sumado puntos por no acertar el quipo ganador. Actualmente tiene: "+ puntajeTotal2 +" puntos");
+				}else if(goles1==goles2) {
+					puntajeTotal2++;
+					System.out.println("el puntaje total de Mariana porque el partido salio empatado es " + puntajeTotal2);
+				}break;
+			}
+	    default:
+			System.out.println("Opcion invalida!!");
+		}
+		
+	}
+
+}

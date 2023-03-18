@@ -1,0 +1,24 @@
+package Clase5;
+
+import java.time.LocalDate;
+
+public class Producto {
+	//atributos
+	private String nombre;
+	private String descripcion;
+	private LocalDate fechaAlta;
+	private Integer pesoKG;
+	private Double precio;
+	public Producto(String nombre, String descripcion, LocalDate fechaAlta, Integer pesoKG, Double precio) {
+		super();
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.setFechaAlta(LocalDate.now());
+		this.pesoKG = pesoKG;
+		this.precio = precio;
+	}
+	
+	//constructor
+	
+	
+}

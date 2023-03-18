@@ -1,0 +1,104 @@
+package Clase2;
+
+public class EjerciciosClase01 {
+
+	public static void main(String[] args) {
+		
+			/*ejercicios
+			1-a)
+			
+			      int a = 5;
+			      int b = 14;
+			      
+			      while(a<=b){
+			          System.out.println(a);
+			          a++;
+			      }
+			    }
+	}
+			
+
+			result: 5,6,7,8,9,10,11,12,13,14
+			-------------------------------------------------
+
+			1-b)
+			
+			      int a = 5;
+			      int b = 14;
+			      
+			      while(a<=b){
+			          if(a % 2 == 0){
+			          System.out.println(a);
+			          }
+			          a++;          
+			      }
+			    }
+	}
+
+
+
+			result:6,8,10,12,14
+			-----------------------------------------------------
+
+			1-c)
+			
+			      int a = 5;
+			      int b = 14;
+			      boolean mostrarPares= false;
+			      
+			      while(a<=b){
+			        if(mostrarPares){
+			            if(a % 2 == 0){
+			            System.out.println(a);
+			            }
+			        }else {
+			           if(a % 2 != 0){
+			            System.out.println(a);
+			            } 
+			        }
+			        a++;
+			          
+			      }
+			    }
+	}
+			
+
+			result mostrarPares(true):6,8,10,12,14
+			result mostrarPares(false). 5,7,9,11,13
+			-------------------------------------------
+
+			1-d)
+				
+				int a = 5;
+			    int b = 14;
+			      
+			      for(int i=14; b>=a; b--)
+			            if(b % 2 == 0){
+			            System.out.println(b);
+			            }
+			    }
+			
+			//result: 14,12,10,8,6
+			--------------------------------------
+			Ejercicio 2)*/
+			
+				float ingresoMensual = 150000;
+				int cantVehiculos = 3;
+				int cantInmuebles= 0;
+				int cantVehiculosDeLujo= 0;
+				
+				if(
+						ingresoMensual >= 489083 ||
+						cantVehiculos >= 3||
+						cantInmuebles >= 3||
+						cantVehiculosDeLujo >= 1
+						) {
+					System.out.println("el hogar pertenece al segmento de clase alta");
+				}else {
+					System.out.println("el hogar NO pertenece al segmento de clase alta");
+				}
+		
+		}
+	}
+
+

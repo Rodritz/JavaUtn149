@@ -1,0 +1,12 @@
+package Clase5;
+
+public class IntroduccionAObjetos {
+
+	public static void main(String[] args) {
+		Persona nahuel = new Persona();
+		nahuel.nombre = "Nahuel";
+		
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package TPIntegrador;
+
+public class Equipo {
+	
+	Selecciones equipo1 = new Selecciones(01, Argentina, Aso);
+
+}

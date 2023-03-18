@@ -1,0 +1,51 @@
+package TPIntegrador;
+
+public class Persona {
+	
+	//atributos
+	private int id;
+	private String nombre;
+	private int puntajeTotal;
+	private int pronosticosAcertados;
+	
+	//constructor
+	public Persona(String nombre, int puntajeTotal, int pronosticosAcertados) {
+		super();
+		this.nombre = nombre;
+		this.puntajeTotal = puntajeTotal;
+		this.pronosticosAcertados = pronosticosAcertados;
+	}
+
+	//getters y setters
+	public Persona() {
+		super();
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public int getPuntajeTotal() {
+		return puntajeTotal;
+	}
+
+	public void setPuntajeTotal(int puntajeTotal) {
+		this.puntajeTotal = puntajeTotal;
+	}
+
+	public int getPronosticosAcertados() {
+		return pronosticosAcertados;
+	}
+
+	public void setPronosticosAcertados(int pronosticosAcertados) {
+		this.pronosticosAcertados = pronosticosAcertados;
+	}
+	
+	
+	
+
+}

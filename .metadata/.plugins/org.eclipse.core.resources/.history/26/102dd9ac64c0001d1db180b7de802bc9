@@ -1,0 +1,15 @@
+package TPIntegrador;
+
+public class Equipo {
+	
+	public static void main(String[] args) {
+	
+		Selecciones equipo1 = new Selecciones(1, "Argentina","AFA" );
+		Selecciones equipo2 = new Selecciones(2, "Arabia Saudita", "AFC");
+		Selecciones equipo3 = new Selecciones(3, "Polonia","UEFA" );
+		Selecciones equipo4 = new Selecciones(4, "Mexico", "Concacaf");
+	
+		
+	
+	}
+}

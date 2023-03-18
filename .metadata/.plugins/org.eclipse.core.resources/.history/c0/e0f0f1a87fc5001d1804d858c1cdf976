@@ -1,0 +1,33 @@
+package Clase5;
+
+import Clase5.Entidades.Persona;
+import Clase5.Entidades.Producto;
+
+public class IntroduccionAObjetos {
+
+	public static void main(String[] args) {
+		
+		//instanciamos Personas
+		Persona nahuel = new Persona();		
+		nahuel.setNombre("Nahuel");//le asigno el nombre al objeto mediante el setter
+		nahuel.setApellido("Ramirez");
+		System.out.println("creamos el objeto Persona " + nahuel.getNombre()+ ", " + nahuel.getApellido()+" mediante un constructor vacio");
+		
+		Persona benjamin = new Persona("Benjamin", "Torres");
+		System.out.println("creamos el objeto Persona " + benjamin.getNombre()+ ", " + benjamin.getApellido() + "mediante un constructor completo");
+		
+		//instanciamos Productos
+		Producto harina = new Producto("harina");
+		
+		Producto roastBeef = new Producto("roast beef","carne de ternera", 1200.0);
+		
+		Producto leche = new Producto("leche","producto lacteo",350.0);
+		
+		//instanciamos Carrito
+		Carrito carrito = new Carrito(nahuel, harina, roastBeef, leche);
+		
+		imprimirEnPantallaElDueño();
+		System.out.println("costo final del carrito" + carrito.costoFinal());
+	}
+
+}

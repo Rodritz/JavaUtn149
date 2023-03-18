@@ -1,0 +1,55 @@
+package TPIntegrador;
+
+public class Selecciones {
+	
+	//atributos
+	private int id;
+	private String nombre;
+	private String confederación;
+	
+	//cosntructores con parametros y vacio
+	public Selecciones(int id, String nombre, String confederación) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.confederación = confederación;
+	}
+
+	public Selecciones() {		
+	}
+
+	//getters y setters
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getConfederación() {
+		return confederación;
+	}
+
+	public void setConfederación(String confederación) {
+		this.confederación = confederación;
+	}
+	
+	//metodos
+	public int partido() {
+		int goles1=(int)(Math.random()*6);
+		int goles2=(int)(Math.random()*6);
+		if(goles1>goles2) {
+			int puntajeJugador1 = 3;
+		}
+	}
+	
+}

@@ -1,0 +1,57 @@
+package modelo;
+
+import java.time.LocalDate;
+
+import com.opencsv.bean.CsvBindByPosition;
+import com.opencsv.bean.CsvDate;
+
+public class Resultado {
+	
+    @CsvBindByPosition(position = 0)
+    private String equipoA;
+    
+    @CsvBindByPosition(position = 1)
+    private String equipoB;
+    
+    @CsvBindByPosition(position = 2)
+    private Integer golesEquipoA;
+    
+    @CsvBindByPosition(position = 3)   
+    private Integer golesEquipoB;
+
+	public String getEquipoA() {
+		return equipoA;
+	}
+
+	public void setEquipoA(String equipoA) {
+		this.equipoA = equipoA;
+	}
+
+	public String getEquipoB() {
+		return equipoB;
+	}
+
+	public void setEquipoB(String equipoB) {
+		this.equipoB = equipoB;
+	}
+
+	public Integer getGolesEquipoA() {
+		return golesEquipoA;
+	}
+
+	public void setGolesEquipoA(Integer golesEquipoA) {
+		this.golesEquipoA = golesEquipoA;
+	}
+
+	public Integer getGolesEquipoB() {
+		return golesEquipoB;
+	}
+
+	public void setGolesEquipoB(Integer golesEquipoB) {
+		this.golesEquipoB = golesEquipoB;
+	}
+    
+   
+
+    
+}

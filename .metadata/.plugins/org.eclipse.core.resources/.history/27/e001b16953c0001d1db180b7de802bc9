@@ -1,0 +1,11 @@
+package TPIntegrador;
+
+public class Selecciones {
+	
+	int id;
+	String nombre;
+	String organizacion;
+	
+	
+
+}

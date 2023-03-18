@@ -1,0 +1,21 @@
+package ar.edu.argentinaprograma.compras;
+
+import ar.edu.argentinaprograma.compras.models.DescuentoFijo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	//Descuento desc1 = new Descuento(); //me sale error porque no puedo instanciar una clase abstracta
+    	
+    	DescuentoFijo des1 = new DescuentoFijo();
+    	desc1.setValorDescuento(14);
+    	
+    	
+        
+    }
+}

@@ -1,0 +1,29 @@
+package Clase5;
+
+import java.time.LocalDate;
+
+public class Producto {
+	//atributos
+	private String nombre;
+	private String descripcion;
+	private LocalDate fechaAlta;
+	private Integer pesoKG;
+	private Double precio;	
+	private static final Double minPrecio = 0.1;
+	
+	//constructor
+	public Producto(String nombre) {
+		super();
+		this.nombre = nombre;
+		this.setFechaAlta(LocalDate.now());
+		this.SetPrecio(minPrecio);				
+	}
+
+	public Producto(String nombre, String descripcion, Double precio) {
+		super();
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.precio = precio;
+	}
+	
+}
