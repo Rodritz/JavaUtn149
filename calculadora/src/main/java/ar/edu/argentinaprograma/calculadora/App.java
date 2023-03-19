@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println(Calculadora.sumar(2,3));
+      System.out.println(Calculadora.sumar(25.0, 35.0));
     }
 }
