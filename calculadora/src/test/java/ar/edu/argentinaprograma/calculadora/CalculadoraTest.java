@@ -2,10 +2,29 @@ package ar.edu.argentinaprograma.calculadora;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.Test;
 
 public class CalculadoraTest {
+	
+	@Test
+	public void dadosNumerosEnteros_cuandoSePreguntanSiUnoEsMayor() {
+		
+		Double numero1 =3.0;
+		Double numero2 =2.0;
+		
+		assertTrue(Calculadora.esMayoroIgualque(numero1, numero2));
+	}
+	
+	@Test
+    public void dadoUnNumeroEntero_cuandoSeLoDividePorCero_seObtieneUnaExcepcion() {
+    
+		Double numero1 = 1.0;
+		Double numero2 = 0.0;    			;
+    	
+        assertThrows(ArithmeticException.class, () -> Calculadora.dividir(numero1, numero2));
+    }
 	
 	@Test
 	public void dadosNumerosEnteros_cuandoSeSuman_elResultadoEsperadoEs() {
@@ -51,14 +70,7 @@ public class CalculadoraTest {
 		assertEquals(resultadoEsperado, Calculadora.dividir(numero1, numero2));
 	}
 	
-	@Test
-	public void dadosNumerosEnteros_cuandoSePreguntanSiUnoEsMayor() {
-		
-		Double numero1 =3.0;
-		Double numero2 =2.0;
-		
-		assertTrue(Calculadora.esMayoroIgualque(numero1, numero2));
-	}
+	
 	
 	@Test
 	public void dadosNumerosEnteros_cuandoSeSuman_yLuegoSeDividenPorOtroEntero() {
