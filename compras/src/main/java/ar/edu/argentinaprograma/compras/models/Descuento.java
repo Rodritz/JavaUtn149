@@ -1,7 +1,7 @@
 package ar.edu.argentinaprograma.compras.models;
 
-//definiendo una clase como abstracta le digo a java que es solo una superclase
-//no puedo crear clases de tipo descuento de una clase abstract
+/*definiendo una clase como abstracta le digo a java que es solo una superclase,
+no puedo crear clases de tipo descuento de una clase abstract*/
 public abstract class Descuento {
 	
 	private double valor;
