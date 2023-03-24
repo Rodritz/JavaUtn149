@@ -1,4 +1,11 @@
 C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\App.java
+C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\models\Persona.java
+C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\models\Carrito.java
 C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\models\DescuentoFijo.java
+C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\interfaces\OtraInterface.java
+C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\exceptions\SinStockException.java
 C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\models\Descuento.java
+C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\interfaces\UnaInterface.java
+C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\models\Producto.java
 C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\models\DescuentoPorcentaje.java
+C:\Users\rodri\eclipse-workspace-149\JavaUtn149\compras\src\main\java\ar\edu\argentinaprograma\compras\models\ItemCarrito.java

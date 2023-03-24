@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.038" tests="8" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.035" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AR"/>
     <property name="sun.boot.library.path" value="C:\Users\rodri\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\rodri\AppData\Local\Temp\surefire10100644377006659162\surefirebooter-20230319090641831_3.jar C:\Users\rodri\AppData\Local\Temp\surefire10100644377006659162 2023-03-19T09-06-41_210-jvmRun1 surefire-20230319090641831_1tmp surefire_0-20230319090641831_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\rodri\AppData\Local\Temp\surefire1843166202539717067\surefirebooter-20230323193523859_3.jar C:\Users\rodri\AppData\Local\Temp\surefire1843166202539717067 2023-03-23T19-35-23_361-jvmRun1 surefire-20230323193523859_1tmp surefire_0-20230323193523859_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\rodri\eclipse-workspace-149\JavaUtn149\calculadora\target\test-classes;C:\Users\rodri\eclipse-workspace-149\JavaUtn149\calculadora\target\classes;C:\Users\rodri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\rodri\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\rodri\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\rodri\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\rodri\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\rodri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\rodri\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\Users\rodri\.m2\repository\org\junit\platform\junit-platform-launcher\1.2.0\junit-platform-launcher-1.2.0.jar;C:\Users\rodri\.m2\repository\org\junit\platform\junit-platform-suite-api\1.2.0\junit-platform-suite-api-1.2.0.jar;C:\Users\rodri\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\rodri\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\rodri\AppData\Local\Temp\surefire10100644377006659162\surefirebooter-20230319090641831_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\rodri\AppData\Local\Temp\surefire1843166202539717067\surefirebooter-20230323193523859_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+8"/>
@@ -50,85 +50,19 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\rodri\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/rodri/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/rodri/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;c:\maven\bin;C:\Users\rodri\AppData\Local\Microsoft\WindowsApps;C:\Users\rodri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rodri\AppData\Local\GitHubDesktop\bin;C:\Windows\System32;;."/>
+    <property name="java.library.path" value="C:\Users\rodri\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/rodri/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/rodri/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;c:\maven\bin;C:\Users\rodri\AppData\Local\Microsoft\WindowsApps;C:\Users\rodri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rodri\AppData\Local\GitHubDesktop\bin;C:\Windows\system32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.5+8"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="dadosNumerosEnteros_cuandoSePreguntanSiUnoEsMayor" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.003"/>
-  <testcase name="dadosNumerosEnteros_cuandoSeSuman_elResultadoEsperadoEs" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0"/>
+  <testcase name="dadosNumerosEnteros_cuandoSePreguntanSiUnoEsMayor" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.002"/>
+  <testcase name="dadosNumerosEnteros_cuandoSeSuman_elResultadoEsperadoEs" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.001"/>
   <testcase name="dadosNumerosEnteros_cuandoSeRestan_elResultadoEsperadoEs" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.001"/>
   <testcase name="dadosNumerosEnteros_cuandoSeDividen_elResultadoEsperadoEs" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0"/>
-  <testcase name="dadosNumerosEnteros_cuandoSeMultiplican_elResultadoEsperadoEs" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0"/>
-  <testcase name="dadosNumerosEnteros_cuandoSeSuman_yLuegoSeDividenPorOtroEntero" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.001"/>
-  <testcase name="dadosNumerosEnteros_cuandoSeRestan_yLuegoSeMultiplicanPorOtroEntero" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.006">
-    <failure message="expected:&lt;605.0&gt; but was:&lt;600.0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<605.0> but was:<600.0>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at ar.edu.argentinaprograma.calculadora.CalculadoraTest.dadosNumerosEnteros_cuandoSeRestan_yLuegoSeMultiplicanPorOtroEntero(CalculadoraTest.java:85)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-  </testcase>
-  <testcase name="dadosNumerosEnteros_cuandoSeSuman_yLuegoSeMultiplicanPorOtroEntero" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0">
-    <failure message="expected:&lt;2700.0&gt; but was:&lt;2750.0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<2700.0> but was:<2750.0>
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at ar.edu.argentinaprograma.calculadora.CalculadoraTest.dadosNumerosEnteros_cuandoSeSuman_yLuegoSeMultiplicanPorOtroEntero(CalculadoraTest.java:98)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-  </testcase>
+  <testcase name="dadosNumerosEnteros_cuandoSeMultiplican_elResultadoEsperadoEs" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0.003"/>
+  <testcase name="dadosNumerosEnteros_cuandoSeSuman_yLuegoSeDividenPorOtroEntero" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0"/>
+  <testcase name="dadosNumerosEnteros_cuandoSeRestan_yLuegoSeMultiplicanPorOtroEntero" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0"/>
+  <testcase name="dadosNumerosEnteros_cuandoSeSuman_yLuegoSeMultiplicanPorOtroEntero" classname="ar.edu.argentinaprograma.calculadora.CalculadoraTest" time="0"/>
 </testsuite>
