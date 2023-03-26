@@ -7,10 +7,12 @@ import ar.edu.argentinaprograma.compras.exceptions.SinStockException;
 
 public class Carrito {
 	
+	//atributos
 	private Persona persona;
 
-	private List<ItemCarrito> items;
+	private List<ItemCarrito> items;//declaramos la lista
 	
+	//creo el constructor carrito el cual va a crear si o si la lista
 	public Carrito() {
 		this.items = new ArrayList<ItemCarrito>();
 	}
@@ -19,6 +21,7 @@ public class Carrito {
 		return this.items;
 	}
 	
+	//metodos
 	public void agregarItem(ItemCarrito ic) {
 		this.items.add(ic);
 	}
@@ -31,6 +34,7 @@ public class Carrito {
 		System.out.println(this.persona.getApellido() + ", " + this.persona.getNombre());;
 	}
 	
+	//en el sig metodo debemos iterar la lista
 	public Double costoFinal() {
 		Double costoFinal = 0.0;
 		for(ItemCarrito item : this.getItems()) {
@@ -39,6 +43,7 @@ public class Carrito {
 		return costoFinal;
 	}
 	
+	//en el sig metodo asignamos un desc como argumento
 	public Double costoFinal(Descuento desc) {
 		Double costoFinal = 0.0;
 		for(ItemCarrito item : this.getItems()) {

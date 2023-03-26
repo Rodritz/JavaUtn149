@@ -6,23 +6,31 @@ import ar.edu.argentinaprograma.compras.exceptions.SinStockException;
 import ar.edu.argentinaprograma.compras.models.Carrito;
 import ar.edu.argentinaprograma.compras.models.DescuentoFijo;
 import ar.edu.argentinaprograma.compras.models.DescuentoPorcentaje;
+import ar.edu.argentinaprograma.compras.models.DescuentoPorcentajeConTope;
 import ar.edu.argentinaprograma.compras.models.ItemCarrito;
 import ar.edu.argentinaprograma.compras.models.Persona;
 import ar.edu.argentinaprograma.compras.models.Producto;
+
 
 public class App 
 {
     public static void main( String[] args )
     {
         
+    	//instanciamos las subclases de Descuento y les asignamos un valor
     	DescuentoFijo desc1 = new DescuentoFijo();
     	desc1.setValorDescuento(14);
     	
     	DescuentoPorcentaje desc2 = new DescuentoPorcentaje();
     	desc2.setValorDescuento(0.3);
     	
+    	DescuentoPorcentajeConTope desc3 = new DescuentoPorcentajeConTope();
+    	desc3.setDescTopeFijo(400);
+    	desc3.setValorDescuento(0.3);
+    	
     	System.out.println(desc1.valorFinal(100));   
     	System.out.println(desc2.valorFinal(100)); 
+    	System.out.println(desc3.valorFinal(2000));
     	
 		//Instancie una persona
 		Persona nahuel = new Persona("Nahuel","Ramirez");
@@ -47,9 +55,12 @@ public class App
 		
 		System.out.println("Costo final del carrito es: "+unCarrito.costoFinal());
     	
+		//en los sig print utilizo las subclases, descFijo y descPorcentaje
 		System.out.println("Costo final del carrito usando descuento fijo:"+unCarrito.costoFinal(desc1));
 		System.out.println("Costo final del carrito usando descuento porcentaje:"+unCarrito.costoFinal(desc2));
+		System.out.println("Costo final del carrito usando descuento porcentajeConTope:"+unCarrito.costoFinal(desc3));
 		
+		//aca tratamos la exception con el bloque try catch
 		try {
 			System.out.println("Costo final solo si hay stock:"+
 							unCarrito.costoFinalSiHayStock());

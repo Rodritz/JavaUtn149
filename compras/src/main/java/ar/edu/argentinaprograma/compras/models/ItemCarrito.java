@@ -31,12 +31,14 @@ public class ItemCarrito {
 	public Double precio() {
 		return this.getProducto().getPrecio()*this.getCantidad();
 	}
-
+	
+	//creamos el metodo que retorne si hay stock, sino lanzara una exception
 	public Double getPrecioSiHayStock() throws SinStockException {
 		
 		if(this.getCantidad() > this.getProducto().getStock()) {
-			throw new SinStockException(this.getProducto());
-		}
+			//SinStockException abc = new SinStockException(this.getProducto());
+			throw new SinStockException(this.getProducto());//aca estoy instanciando la exception, la estoy creando de otro modo
+		}													//si valida que no hay producto suficiente, en este caso, lanzara la exception
 		
 		return this.precio();
 	}

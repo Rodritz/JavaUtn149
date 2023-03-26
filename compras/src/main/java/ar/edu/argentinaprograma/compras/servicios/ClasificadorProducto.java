@@ -5,6 +5,7 @@ import ar.edu.argentinaprograma.compras.models.Producto;
 
 public class ClasificadorProducto implements UnaInterface{
 
+	//las clases que implementas una interfece estan obligadas a implementar sus metodos
 	@Override
 	public void hacerAlgo(Producto p) {
 

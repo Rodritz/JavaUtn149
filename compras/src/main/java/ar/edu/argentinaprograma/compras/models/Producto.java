@@ -13,7 +13,7 @@ public class Producto {
 	private Integer stock;
 	
 	private static final Double minPrecio = 0.1;
-	private static final Integer minStock = 10;
+	private static final Integer minStock = 10;	
 	
 	public Producto(String nombre) {
 		this.setNombre(nombre);
@@ -85,8 +85,8 @@ public class Producto {
 
 	public void setStock(Integer stock) {
 		this.stock = stock;
-	}
-
+	}	
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(nombre,precio);

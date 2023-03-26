@@ -9,7 +9,8 @@ public class ProcesadorProducto  implements UnaInterface, OtraInterface{
 	public void otroMetodo() {
 		
 	};
-		
+	
+	//las clases que implementas una interfece estan obligadas a implementar sus metodos
 	@Override
 	public void hacerAlgo(Producto p) {
 		// TODO Auto-generated method stub
