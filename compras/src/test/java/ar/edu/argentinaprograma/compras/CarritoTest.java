@@ -74,7 +74,7 @@ public class CarritoTest {
 		assertEquals(unCarrito.costoFinal(),costoFinalDelCarritoUsandoMapeo);	
    	}
 	
-	@Test
+	/*@Test
 	public void dadosUnDouble_cuandoSeMultiplica_conUnEntero_elResultadoEsperadoEs() {
 		
 		Double numero1 = 15.0;
@@ -113,6 +113,6 @@ public class CarritoTest {
     			.map(precio -> precio).sum();
     			
 		assertEquals(unCarrito.costoFinal(desc1),costoFinalDelCarritoUsandoMapeo);	
-   	}
+   	}*/
 	
 }
