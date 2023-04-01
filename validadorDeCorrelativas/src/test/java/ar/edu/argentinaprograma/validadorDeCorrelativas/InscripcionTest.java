@@ -80,8 +80,7 @@ public class InscripcionTest {
 			
 			//evalua si NO la tiene aprobada, por eso es assertFalse
 			assertFalse(inscripcion.aprobada());
+			//assertTrue(inscripcion.aprobada()); seria invalido porque TRUE + FALSE = FALSE
 		}
-			
-		
 		
 	}
