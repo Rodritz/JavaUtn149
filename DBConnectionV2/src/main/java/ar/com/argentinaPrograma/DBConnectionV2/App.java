@@ -23,7 +23,7 @@ public class App {
             System.out.println("Creating statement...");
             consulta = conexion.createStatement();
             String sql;
-            sql = "SELECT id, Apellido, Nombre, Puntos FROM TPIntegrador.personas";
+            sql = "SELECT id, Apellido, Nombre, Puntos FROM tpintegrador.personas";
 
             //En la variable resultado obtendremos las distintas filas que nos devolvió la base
             ResultSet resultado = consulta.executeQuery(sql);
